@@ -1,0 +1,48 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'D:\Documents and Settings\supratim\My Documents\embedded projects\gsm_control_pcb.LYT'.
+CADCAM generated at 2:17:25 AM on Sunday, March 25, 2012.
+
+File List
+---------
+Top Copper              : gsm_control_pcb - CADCAM Top Copper.TXT
+Bottom Copper           : gsm_control_pcb - CADCAM Bottom Copper.TXT
+Top Silk Screen         : gsm_control_pcb - CADCAM Top Silk Screen.TXT
+Bottom Solder Resist    : gsm_control_pcb - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : gsm_control_pcb - CADCAM Top SMT Paste Mask.TXT
+Drill                   : gsm_control_pcb - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=15th                                      DRAW
+D11	CIRCLE	D=50th                                      FLASH
+D12	SQUARE	S=80th                                      FLASH
+D13	CIRCLE	D=70th                                      FLASH
+D14	CIRCLE	D=80th                                      FLASH
+D15	CIRCLE	D=60th                                      FLASH
+D16	CIRCLE	D=100th                                     FLASH
+D17	CIRCLE	D=8th                                       DRAW
+D18	SMT	W=100th               H=100th               FLASH
+D19	CIRCLE	D=90th                                      FLASH
+D70	CIRCLE	D=130th                                     FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	25th (0-15)
+T02	40th (0-15)
+T03	30th (0-15)
+T04	35th (0-15)
+T05	60th (0-15)
+T06	45th (0-15)
+
+
+[END OF FILE]
